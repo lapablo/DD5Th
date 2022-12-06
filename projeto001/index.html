@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D5th-info</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="form">
+        <h1><img src="images/dado.jpg" alt="dado">D&D 5th info</h1>
+        <p id="">
+            escolha oque esta procurando:
+            <select id="opt">
+                <option value="ability-scores">ability-scores</option>
+                <option value="alignments">alignments</option>
+                <option value="classes">classes</option>
+                <option value="conditions">conditions</option>
+                <option value="damage-types">damage-types</option>
+                <option value="equipment">equipment</option>
+                <option value="features">features</option>
+                <option value="languages">languages</option>
+                <option value="magic-items">magic-items</option>
+                <option value="monsters">monsters</option>
+                <option value="proficiencies">proficiencies</option>
+                <option value="races">races</option>
+                <option value="rule-sections">rule-sections</option>
+                <option value="rules">rules</option>
+                <option value="skills">skills</option>
+                <option value="subclasses">subclasses</option>
+                <option value="subraces">subraces</option>
+                <option value="traits">traits</option>
+                <option value="weapon-properties">weapon-properties</option>
+            </select>
+        </p>
+        <input type="text"  id="inp" placeholder="escrevava aqui">
+        <button onclick="info_mon()">Ver</button>
+    </div>
+
+    <div id="content-info">
+        
+    </div>
+</body>
+</html>
